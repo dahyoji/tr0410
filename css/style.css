@@ -181,6 +181,14 @@
     text-align: center;
 }
 
+.main_best .inner .itm span {
+    display: block;
+    margin-top: 8px;
+    font-size: 16px;
+    font-weight: 600;
+    text-align: center;
+}
+
 .main_banner {
     background: url(../images/main_product01.jpg) no-repeat center center/cover;
     background-attachment: fixed;
@@ -224,6 +232,14 @@
     word-break: keep-all;
 }
 
+.main_product .itm span {
+    display: block;
+    margin-top: 8px;
+    font-size: 16px;
+    font-weight: 600;
+    text-align: center;
+}
+
 .main_product .arrows {
     position: absolute;
     top: 50%;
@@ -253,7 +269,7 @@
 .main_product .slick-dots {
     display: flex;
     gap: 8px;
-    margin-top: 24;
+    margin-top: 32px;
     justify-content: center;
 }
 
@@ -332,6 +348,14 @@
     text-align: center;
 }
 
+.main_content .tab_content .con span {
+    display: block;
+    margin-top: 8px;
+    font-size: 16px;
+    font-weight: 600;
+    text-align: center;
+}
+
 .footer {
     padding: 80px 0;
     background: #333;
@@ -384,21 +408,6 @@
 
     font-size: 12px;
     line-height: 16px;
-}
-
-.footer .f_lnk {
-    display: flex;
-    justify-content: center;
-    margin-top: 40px;
-}
-
-.footer #lnk {
-    background: #333;
-    height: 40px;
-    padding: 0 16px;
-    color: #fff;
-    font-size: 14px;
-    border: 1px solid #ddd
 }
 
 .to_top {
